@@ -1,0 +1,123 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width:1000px;
+    margin:0 auto;
+}
+/*　ヘッダー */
+.header{
+    width:100%;
+    background: #3366cc;
+    height:80px;
+    box-shadow: 0 0px 4px 0px rgba(0,0,0,0.83);
+}
+.header .logo{
+    padding:5px;
+}
+.header a{
+    padding-top:10px;
+}
+
+.wrapper{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+/*　サイドメニュー */
+.sidemenu{
+    float:left;
+    width:20%;
+    background:#ceefe4;
+    height:820px;
+    position:absolute;
+    top:2px;
+}
+.sidemenu ul{
+    margin:15px 0 0 30px;
+    list-style:none;
+}
+.sidemenu-item{
+    margin:10px 0;
+}
+.sidemenu-item a{
+    width:50px;
+    height:30px;
+    font-size: 20px;
+    text-decoration:none; 
+    color:#333;
+}
+/* メインコンテンツ */
+.main{
+    float:right;
+    width:80%;
+    font-family: 'Roboto', sans-serif;
+
+}
+.contents{
+    background: #f4f0e6;
+    height:800px;
+    width:85%;
+    margin:20px auto 0;
+    overflow: scroll;
+}
+.contents h2{
+    text-align:center;
+    font-size: 36px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 0.1rem;
+}
+.accordion{
+    width:80%;
+    background:#e3e3eb;
+    text-align:center;
+    min-height: 100px;
+    margin:10px auto 0;
+    border:2px solid #808080; 
+}
+.accordion-click:hover{
+    cursor: pointer;
+}
+.accordion h3{
+    font-size: 24px;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+    letter-spacing: 0.1rem;
+}
+.accordion-click{
+    margin-bottom:30px;
+}
+.accordion-click p{
+    text-align:justify;
+    padding:0 10px;
+    line-height:1.5;
+}
+.card{
+    height:100px;
+    width:95%;
+    margin:0 auto 20px;
+    border:1px solid #808080;
+}
+.card h3{
+    margin-top:5px;
+}
+.card p{
+    margin-top:5px;
+    line-height:1.5;
+    text-align: justify;
+    padding:0 10px;
+}
+/* フッター */
+.footer{
+    width:100%;
+    padding:20px 0 30px;
+    background: #e3e3eb;
+    color:#333;
+}
+.footer ul{
+    list-style:none;
+}
+
+
+
+
