@@ -16,7 +16,9 @@ body{
 .header a{
     padding-top:10px;
 }
-
+.card a{
+    text-decoration: none;
+}
 .wrapper{
     width:100%;
     overflow: hidden;
@@ -117,6 +119,19 @@ body{
 .footer ul{
     list-style:none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
