@@ -109,6 +109,15 @@ body{
     text-align: justify;
     padding:0 10px;
 }
+
+/*文書修正用の入力フォーム*/
+.question label{
+    display: block;
+    padding-top:5px;
+}
+
+
+
 /* フッター */
 .footer{
     width:100%;
